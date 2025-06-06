@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ventas Gamer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0a0a0a;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      padding: 20px;
+      text-align: center;
+    }
+    h1, h2 {
+      margin: 0 0 10px;
+    }
+    .section {
+      padding: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+    .card a {
+      display: inline-block;
+      color: #0ff;
+      text-decoration: none;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ventas Gamer</h1>
+    <p>Skins, periféricos y contenido épico</p>
+  </header>
+
+  <section class="section">
+    <h2>Skins Populares</h2>
+    <div class="gallery">
+      <div class="card">
+        <img src="Fotos/vava.jpg" alt="Reaver Vandal">
+        <h3>Reaver Vandal</h3>
+        <a href="https://valorantstore.net/" target="_blank">Comprar skin</a>
+      </div>
+      <div class="card">
+        <img src="GIF/kara.gif" alt="Karambit Fade">
+        <h3>Karambit Fade</h3>
+        <a href="https://skinport.com/market/karambit-fade" target="_blank">Comprar en Skinport</a>
+      </div>
+      <div class="card">
+        <img src="Fotos/uff.jpg" alt="Prestige KDA Ahri">
+        <h3>Prestige K/DA Ahri</h3>
+        <a href="https://www.leagueoflegends.com/es-mx/champions/ahri/" target="_blank">Ir a tienda LoL</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Periféricos Gamer</h2>
+    <div class="gallery">
+      <div class="card">
+        <img src="Fotos/tecla.jpg" alt="Teclado Mecánico RGB">
+        <h3>Teclado Mecánico RGB</h3>
+        <a href="https://www.amazon.com.mx/Teclado-Mec%C3%A1nico-RGB" target="_blank">Comprar en Amazon</a>
+      </div>
+      <div class="card">
+        <img src="Fotos/mouse.jpg" alt="Mouse Gamer Logitech G502">
+        <h3>Mouse Logitech G502</h3>
+        <a href="https://www.logitechg.com/es-mx/products/gaming-mice/g502-hero-gaming-mouse.910-005472.html" target="_blank">Comprar en Logitech</a>
+      </div>
+      <div class="card">
+        <img src="Fotos/jjj.jpg" alt="Auriculares HyperX Cloud">
+        <h3>HyperX Cloud II</h3>
+        <a href="https://www.hyperx.com/unitedstates/us/headsets/cloud-gaming-headset" target="_blank">Comprar en HyperX</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Combos Recomendados</h2>
+    <div class="gallery">
+      <div class="card">
+        <img src="Fotos/uff.jpg" alt="Combo Valorant">
+        <h3>Combo Valorant</h3>
+        <p>Mouse + Tapete + Skin Vandal</p>
+        <a href="https://www.amazon.com.mx/s?k=valorant+combo+gaming" target="_blank">Comprar combo</a>
+      </div>
+      <div class="card">
+        <img src="Fotos/combobo.jpg" alt="Combo Fortnite">
+        <h3>Combo Fortnite</h3>
+        <p>Control + Auriculares + Skin Peely</p>
+        <a href="https://www.amazon.com.mx/s?k=fortnite+combo+gaming" target="_blank">Comprar combo</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
+
