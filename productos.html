@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productos y Juegos Gamer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      color: #00ffcc;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      box-shadow: 0 0 10px #00ffcc;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #111;
+      padding: 15px;
+    }
+
+    nav a {
+      color: #00ffaa;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #00ffae;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #1c1c1c;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px #00ffaa22;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      color: #00ffae;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.9em;
+      color: #cccccc;
+    }
+
+    footer {
+      background-color: #111;
+      color: #666;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.8em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Productos y Juegos Gamer
+  </header>
+
+  <nav>
+    <a href="#productos">Productos Gamer</a>
+    <a href="#juegos">Juegos</a>
+  </nav>
+
+  <section id="productos">
+    <h2>Productos Gamer</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Teclado+RGB" alt="Teclado Gamer RGB" />
+        <h3>Teclado Mecánico RGB</h3>
+        <p>Iluminación personalizable y switches mecánicos para máximo rendimiento.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Mouse+Gamer" alt="Mouse Gamer" />
+        <h3>Mouse Gamer 16000 DPI</h3>
+        <p>Alta precisión y diseño ergonómico para largas sesiones de juego.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Auriculares+Gaming" alt="Auriculares Gamer" />
+        <h3>Auriculares 7.1 Surround</h3>
+        <p>Audio inmersivo con micrófono integrado y cancelación de ruido.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="juegos">
+    <h2>Juegos Recomendados</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Cyberpunk+2077" alt="Cyberpunk 2077" />
+        <h3>Cyberpunk 2077</h3>
+        <p>Explora Night City en este RPG futurista lleno de acción y decisiones.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Elden+Ring" alt="Elden Ring" />
+        <h3>Elden Ring</h3>
+        <p>Un mundo abierto desafiante y lleno de misterios por descubrir.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Valorant" alt="Valorant" />
+        <h3>Valorant</h3>
+        <p>Shooter táctico competitivo con habilidades únicas por personaje.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 GamerZone. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
